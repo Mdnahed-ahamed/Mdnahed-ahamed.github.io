@@ -2,75 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fresher Resume</title>
+  <title>Md Nahed Ahamed - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
       color: #333;
     }
-    h1, h2 {
-      color: #2c3e50;
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
+    h1, h2 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    p, ul {
+      margin: 0 0 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
     .section {
       margin-bottom: 20px;
     }
-    .section h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 5px;
+
+    .project-title {
+      font-weight: bold;
+      margin-top: 10px;
     }
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-    .skills span {
-      display: inline-block;
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 5px 10px;  
-      margin: 5px 5px 0 0;
-      border-radius: 3px;
+
+    .date {
+      float: right;
+      color: #777;
       font-size: 0.9em;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .container {
+        box-shadow: none;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Md Nahed Ahamed</h1>
-  <p><strong>Student</strong></p>
+  <div class="container">
+    <h1>Md Nahed Ahamed</h1>
+    <div class="contact">
+      <p>Email: <a href="mailto:your.mdnahed1415@gmail.com">your.mdnahed1415@gmail.com</a> | Phone: +91-9515032749</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/MdNahed" target="_blank">linkedin.com/in/MdNahed</a> | GitHub: <a href="https://github.com/Mdnahed-ahamed" target="_blank">github.com/Mdnahed-ahamed</a></p>
+    </div>
 
-  <div class="section">
-    <h2>Contact</h2>
-    <p>Email: mdnahed1415@gmail.com</p>
-    <p>Phone: 9515032749</p>
-   <p>LinkedIn: linkedin.com/in/mdnahed</p>
-   <p>githubprofile</p> <a href="http://github.com/md nahed ahamed">github link</a>
-  </div>
+    <div class="section">
+      <h2>Objective</h2>
+      <p>Electronics and Communication Engineering student seeking an internship in the Internet of Things (IoT) domain. Eager to apply skills in embedded systems, sensors, and cloud integration to develop innovative and practical solutions.</p>
+    </div>
 
-  <div class="section">
-    <h2>Education</h2>
-    <p><strong>B.Tech in ELECTRONICS AND COMMUNICATION ENGINEERING</strong></p>
-    <p>XYZ University, Vijayawada, Andhra Pradesh</p>
-    <p>Graduated: 2025</p>
-  </div>
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>B.Tech in Electronics and Communication Engineering</strong> <span class="date">2022 – 2026</span></p>
+      <p>Prasad V. Potluri Siddhartha Institute of Technology, Vijayawada</p>
+    </div>
 
-  <div class="section">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Portfolio Website:</strong> Developed a personal portfolio using HTML, CSS, and JavaScript.</li>
-      <li><strong>To-Do List App:</strong> Created a dynamic to-do list application with JavaScript functionalities.</li>
-      <li><strong>Responsive Blog Template:</strong> Designed a responsive blog template compatible with various devices.</li>
-    </ul>
-  </div>
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C, Java, Python, Embedded C</li>
+        <li><strong>Platforms:</strong> Arduino, Raspberry Pi</li>
+        <li><strong>Protocols:</strong> MQTT, HTTP</li>
+        <li><strong>Tools:</strong> MATLAB, Fritzing, Git</li>
+      </ul>
+    </div>
 
-  <div class="section skills">
-    <h2>Skills</h2>
-    <span>HTML5</span>
-    <span>CSS3</span>
-    <span>JavaScript</span>
-    <span>Bootstrap</span>
-    <span>Git & GitHub</span>
-    <span>Responsive Design</span>
+    <div class="section">
+      <h2>Projects</h2>
+      <div>
+        <p class="project-title">Smart Home Automation System</p>
+        <p>Developed using ESP32, Blynk, and relay modules to remotely control home appliances. Integrated DHT11 sensor for real-time temperature and humidity monitoring via a mobile app.</p>
+
+        <p class="project-title">IoT Weather Station</p>
+        <p>Collected environmental data using temperature and humidity sensors. Used Firebase for real-time cloud dashboard visualization and remote monitoring.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Internet of Things – Coursera (University of California, Irvine) – 2023</li>
+        <li>Embedded Systems – NPTEL – 2023</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <p>English (Fluent), Urdu (Native)</p>
+    </div>
+
+    <div class="section">
+      <h2>Declaration</h2>
+      <p>I hereby declare that the information provided above is true to the best of my knowledge and belief.</p>
+    </div>
   </div>
 </body>
 </html>
